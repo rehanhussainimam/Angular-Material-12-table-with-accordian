@@ -2,8 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-sub-table',
-  templateUrl: './sub-table.component.html',
-  styleUrls: ['./sub-table.component.css'],
+  templateUrl: 'sub-table.component.html',
+  styleUrls: ['sub-table.component.css'],
 })
 export class SubTableComponent implements OnInit {
   @Input() data: any;
